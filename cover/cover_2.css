@@ -10,7 +10,7 @@ body{
     
     margin-top: 10px;
     width: 380px;
-    height: 550px;
+    height: 580px;
     border-radius: 65px;
     padding-top: 20px;
     display: flex;
@@ -96,7 +96,7 @@ body{
 #foot{
     
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #getin{
