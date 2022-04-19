@@ -8,11 +8,11 @@ body{
 
 #main{
     
-    margin-top: 20px;
+    margin-top: 10px;
     width: 380px;
-    height: 600px;
+    height: 550px;
     border-radius: 65px;
-    padding-top: 40px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,12 +22,12 @@ body{
 
 #words{
     
-    width: 380px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 65px;
     text-align: center;
-    font-size: 55px;
+    font-size: 45px;
     color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -48,7 +48,7 @@ body{
     
     width: 140px;
     height: 140px;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     border-radius: 50%;
     border: 15px solid rgb(255, 255, 255);
@@ -96,7 +96,7 @@ body{
 #foot{
     
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #getin{
