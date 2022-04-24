@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding-top: 50px;
+
+    background-color: rgb(35, 35, 82);
+}
+
+body #container {
+    border: 1px solid #000;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body #container .row {
+    display: flex;
+}
+
+body #container .row div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(89, 74, 116);;
+}
+
+body #container .row div.snake {
+    background-color: rgb(128, 55, 121);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body #container .row div.food {
+    background-color: rgb(138, 198, 235);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#foot{
+    margin-top: 10px;
+}
+
+#begin{
+    background-color: rgb(128, 55, 121);
+    width: 80px;
+    height: 30px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#begin:active{
+    background-color: rgb(78, 27, 72);
+}
+
+#scorebox{
+    color: rgb(157, 208, 212)
+}
+
+
+
+
+#controller{
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+#upbtn{
+    background-color: rgb(128, 55, 121);
+    width: 50px;
+    height: 20px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    position: absolute;
+    top: 2px;
+    left: 125px;
+
+}
+
+#upbtn:active{
+    background-color: rgb(78, 27, 72);
+}
+
+#downbtn{
+    background-color: rgb(128, 55, 121);
+    width: 50px;
+    height: 20px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    position:absolute;
+    top:30px;
+    left: 125px;
+
+}
+
+#downbtn:active{
+    background-color: rgb(78, 27, 72);
+}
+
+#leftbtn{
+    background-color: rgb(128, 55, 121);
+    width: 50px;
+    height: 20px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    position: absolute;
+    top: 20px;
+    left: 70px;
+
+
+}
+
+#leftbtn:active{
+    background-color: rgb(78, 27, 72);
+}
+
+#rightbtn{
+    background-color: rgb(128, 55, 121);
+    width: 50px;
+    height: 20px;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    position: absolute;
+    top: 20px;
+    left: 180px;
+
+
+}
+
+#rightbtn:active{
+    background-color: rgb(78, 27, 72);
+}

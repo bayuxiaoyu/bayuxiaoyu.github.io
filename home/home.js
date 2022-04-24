@@ -29,6 +29,14 @@ window.onload = function(){
     }
 
 
+    //游戏
+
+    //snake
+    const game_snake = document.getElementById("snake");
+    game_snake.onclick = function(){
+        window.location.href = '../game/snake';
+    }
+
 
 
 

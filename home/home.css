@@ -104,3 +104,30 @@ body{
     display: none;
 }
 
+
+
+
+li{
+    list-style-type:none;
+}
+
+
+.onegame{
+    background-color: rgb(47, 54, 86);
+    margin-top: 10px;
+    height: 40px;
+    width: 800px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    cursor: pointer;
+    
+}
+
+.onegame:active{
+    background-color: rgb(32, 38, 65);
+}
