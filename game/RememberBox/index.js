@@ -3,6 +3,7 @@ window.onload  = function(){
     const start = document.getElementById("start");
     const desbox = document.getElementById("desbox");
     const box = document.getElementsByClassName("box");
+    const n = 10
     let Game = {
         
         data: [],
@@ -15,9 +16,9 @@ window.onload  = function(){
             this.createDOM();
             this.data = [];
             this.box = [];
-            for(let i=0;i<16;i++){
+            for(let i=0;i<n;i++){
                 let temp=[];
-                for(let j=0; j<16; j++){
+                for(let j=0; j<n; j++){
                     temp.push(0);
                 }
                 this.data.push(temp);
@@ -32,9 +33,9 @@ window.onload  = function(){
 
         createDOM:function(){//生成地图
             let str="";
-            for(let i=0; i<16; i++){
+            for(let i=0; i<n; i++){
                 str = str + "<div class=\"row\">";
-                for(let j=0; j<16;j++){
+                for(let j=0; j<n;j++){
                     str = str + "<div></div>";
                 }
                 str = str +"</div>";
@@ -48,12 +49,12 @@ window.onload  = function(){
             
 
             for(let i =0; i<10;i++){
-                let x = parseInt(Math.random()*16),
-                    y = parseInt(Math.random()*16);
+                let x = parseInt(Math.random()*n),
+                    y = parseInt(Math.random()*n);
 
                 while(this.data[x][y]!=0){
-                x = parseInt(Math.random()*16),
-                y = parseInt(Math.random()*16);
+                x = parseInt(Math.random()*n),
+                y = parseInt(Math.random()*n);
                 }
 
                 this.data[x][y]=1;

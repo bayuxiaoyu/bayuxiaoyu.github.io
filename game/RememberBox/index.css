@@ -37,7 +37,7 @@ body #container .row div.box {
     background-color:rgb(38, 39, 71);
     width: 350px;
     margin: 0 auto;
-    border-radius: 30px;
+    border-radius: 20px;
     margin-top: 130px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -56,4 +56,8 @@ body #container .row div.box {
     color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 10px;
+}
+
+#start:active{
+    background-color: rgb(106, 34, 99);
 }
