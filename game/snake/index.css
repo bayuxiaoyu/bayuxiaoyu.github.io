@@ -73,8 +73,8 @@ body #container .row div.food {
 
 #upbtn{
     background-color: rgb(128, 55, 121);
-    width: 50px;
-    height: 20px;
+    width: 100px;
+    height: 50px;
     border: 0px;
     border-radius: 50px;
     font-size: 15px;
@@ -82,8 +82,8 @@ body #container .row div.food {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     position: absolute;
-    top: 2px;
-    left: 125px;
+    top: 6px;
+    left: 100px;
 
 }
 
@@ -93,8 +93,8 @@ body #container .row div.food {
 
 #downbtn{
     background-color: rgb(128, 55, 121);
-    width: 50px;
-    height: 20px;
+    width: 100px;
+    height: 50px;
     border: 0px;
     border-radius: 50px;
     font-size: 15px;
@@ -102,8 +102,8 @@ body #container .row div.food {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     position:absolute;
-    top:30px;
-    left: 125px;
+    top:70px;
+    left: 100px;
 
 }
 
@@ -113,8 +113,8 @@ body #container .row div.food {
 
 #leftbtn{
     background-color: rgb(128, 55, 121);
-    width: 50px;
-    height: 20px;
+    width: 100px;
+    height: 50px;
     border: 0px;
     border-radius: 50px;
     font-size: 15px;
@@ -122,8 +122,8 @@ body #container .row div.food {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     position: absolute;
-    top: 20px;
-    left: 70px;
+    top: 35px;
+    left: 0px;
 
 
 }
@@ -134,8 +134,8 @@ body #container .row div.food {
 
 #rightbtn{
     background-color: rgb(128, 55, 121);
-    width: 50px;
-    height: 20px;
+    width: 100px;
+    height: 50px;
     border: 0px;
     border-radius: 50px;
     font-size: 15px;
@@ -143,8 +143,8 @@ body #container .row div.food {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     position: absolute;
-    top: 20px;
-    left: 180px;
+    top: 35px;
+    left: 203px;
 
 
 }
