@@ -149,7 +149,7 @@ window.onload = function(){
                 for(let j=0; j<this.data.length; j++){
                    
                     if(this.data[i][j]==0){
-                        ;
+            
                         $("#container .row").eq(i).find("div")[j].className = "blank";
                     }else if(this.data[i][j]==1){
                         

@@ -34,7 +34,13 @@ window.onload = function(){
     //snake
     const game_snake = document.getElementById("snake");
     game_snake.onclick = function(){
-        window.location.href = '../game/snake';
+        window.location.href = '../game/snake/index.html';
+    }
+
+    //RememberBox
+    const game_RememberBox = document.getElementById("RememberBox");
+    game_RememberBox.onclick = function(){
+        window.location.href = '../game/RememberBox/index.html';
     }
 
 
